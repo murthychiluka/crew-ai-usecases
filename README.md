@@ -242,13 +242,15 @@ Multi-agent coordination: Ways to organize agents to work together.
 Deployment and observability: Supporting capabilities for running and inspecting agent applications.
 
 
-## Simple comparison
-Feature	           Agno                                 CrewAI	                                  LangGraph 
-Build AI agents     Yes 	                              Yes	                                   Yes
-Multiple agents	   Yes	                               Yes	                                   Yes
-Tools and memory    Yes	                               Yes	                                     Yes
-Workflow control    Yes	                                Yes	                                    Strong graph-based control
-Main approach	      Python SDK and agent platform	      Role/task-oriented framework	       Stateful, graph-based workflows
+## Simple Comparison
+
+| Feature | Agno | CrewAI | LangGraph |
+|---|---|---|---|
+| Build AI agents | Yes | Yes | Yes |
+| Multiple agents | Yes | Yes | Yes |
+| Tools and memory | Yes | Yes | Yes |
+| Workflow control | Yes | Yes | Strong graph-based control |
+| Main approach | Python SDK and agent platform | Role/task-oriented framework | Stateful, graph-based workflows |
 
 
 
