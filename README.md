@@ -223,3 +223,45 @@ Add approval and safety controls, and compare the result with what Cowork can do
 Go deeper into CrewAI or LangGraph only when you encounter a real requirement that justifies it.
 
 Bottom line: You're right that building agents does not automatically add value. The value comes from solving a problem that existing tools cannot adequately solve, or building a solution you need to own, integrate, and operate. If Cowork already solves your problem reliably and securely, using it is a perfectly sensible engineering decision.
+******************************************************************************************************************************
+
+is agno a frame work?
+Yes. Agno is a framework for building AI agents and multi-agent systems, primarily using Python.
+
+Think of Agno as similar in purpose to CrewAI and LangGraph: it provides building blocks to create AI agents that can reason, use tools, remember information, and complete tasks.
+
+What does Agno provide?
+Agents: AI workers that perform specific tasks.
+
+Tools: Functions that let agents interact with APIs, databases, files, and other systems.
+
+Memory and knowledge: Capabilities for retaining context and retrieving information.
+
+Multi-agent coordination: Ways to organize agents to work together.
+
+Deployment and observability: Supporting capabilities for running and inspecting agent applications.
+
+
+## Simple comparison
+Feature	           Agno                                 CrewAI	                                  LangGraph 
+Build AI agents     Yes 	                              Yes	                                   Yes
+Multiple agents	   Yes	                               Yes	                                   Yes
+Tools and memory    Yes	                               Yes	                                     Yes
+Workflow control    Yes	                                Yes	                                    Strong graph-based control
+Main approach	      Python SDK and agent platform	      Role/task-oriented framework	       Stateful, graph-based workflows
+
+
+
+
+## Agno
+
+Example: Build an AWS troubleshooting agent
+Using Agno, you could create a Python agent that reads CloudWatch logs, examines errors, and recommends a fix. You would configure an LLM, provide appropriate AWS tools and permissions, and define the agent's instructions.
+
+You can start experimenting in Google Colab or develop locally in VS Code.
+
+Official documentation: 
+Agno Quickstart
+
+Remember: Agno is the framework; the LLM is the brain; and the tools, execution controls, and supporting infrastructure form much of the harness. Agno helps you build that system rather than requiring you to implement every component yourself.
+
